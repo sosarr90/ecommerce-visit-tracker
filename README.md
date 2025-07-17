@@ -1,32 +1,25 @@
-##E-commerce Visit Tracker | PySpark + Hive + Azure Blob + Parquet
+# E-commerce Visit Tracker | PySpark + Hive + Azure Blob + Parquet
 
-##Description
+## Description
 
-Ce projet met en œuvre un pipeline **Big Data** end-to-end qui suit les visites d'utilisateurs sur un site e-commerce. Il simule le traitement des logs bruts à travers :
+Ce projet met en Å“uvre un pipeline **Big Data** end-to-end qui suit les visites d'utilisateurs sur un site e-commerce. Il simule le traitement des logs bruts Ã  travers :
 
-- Azure Blob Storage (stockage cloud)
-- PySpark pour le traitement ETL
-- Format **Parquet** pour stockage efficace
-- Apache Hive pour l’analyse en SQL
+- ðŸ”¹ Azure Blob Storage (stockage cloud)
+- ðŸ”¹ PySpark pour le traitement ETL
+- ðŸ”¹ Format **Parquet** pour stockage efficace
+- ðŸ”¹ Apache Hive pour lâ€™analyse en SQL
 
 ---
 
-##Flux de données résumé
-Visites brutes ==> Azure Blob ==> PySpark ==> Parquet (Blob) + Hive Table ==> Requêtes / Visualisation
-
-
-
-##Architecture du pipeline
+## Architecture du pipeline
 
 ```plaintext
-Raw Logs (CSV) : Azure Blob Storage
-			--> PySpark ETL: Read + Clean + Aggregate
-					--> Write to Parquet (Azure Blob)
-										--> Save as Hive Table (ecommerce.visits_summary)
-																				--> Notebook or HiveQL for analytics
-       
-
-      
-
-      
-
+Raw Logs (CSV) â†’ Azure Blob Storage
+      â†“
+PySpark ETL: Read + Clean + Aggregate
+      â†“
+Write to Parquet (Azure Blob)
+      â†“
+Save as Hive Table (ecommerce.visits_summary)
+      â†“
+Notebook or HiveQL for analytics
