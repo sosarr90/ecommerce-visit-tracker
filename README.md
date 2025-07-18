@@ -2,12 +2,15 @@
 
 ## Description
 
-Ce projet met en œuvre un pipeline **Big Data** end-to-end qui suit les visites d'utilisateurs sur un site e-commerce. Il simule le traitement des logs bruts à travers :
+This project implements an end-to-end Big Data pipeline that tracks user visits on an e-commerce website. It simulates the processing of raw logs through:
 
-- 🔹 Azure Blob Storage (stockage cloud)
-- 🔹 PySpark pour le traitement ETL
-- 🔹 Format **Parquet** pour stockage efficace
-- 🔹 Apache Hive pour l’analyse en SQL
+🔹 Azure Blob Storage (cloud storage)
+
+🔹 PySpark for ETL processing
+
+🔹 Parquet format for efficient storage
+
+🔹 Apache Hive for SQL-based analysis
 
 ---
 
