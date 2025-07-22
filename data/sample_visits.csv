@@ -1,0 +1,5 @@
+user_id,timestamp,page,session_id,device
+u001,2024-06-10T08:12:00Z,home,s001,mobile
+u001,2024-06-10T08:12:05Z,product,s001,mobile
+u002,2024-06-10T08:15:23Z,cart,s002,desktop
+u003,2024-06-10T08:16:55Z,checkout,s003,mobile

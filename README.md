@@ -26,3 +26,9 @@ Write to Parquet (Azure Blob)
 Save as Hive Table (ecommerce.visits_summary)
       ↓
 Notebook or HiveQL for analytics
+```
+## Objectifs atteints
+ Extraction de données depuis Azure Blob
+ Nettoyage & transformation avec PySpark
+ Sauvegarde efficace en Parquet
+ Analyse via Hive ou Notebook
